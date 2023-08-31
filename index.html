@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <title>Works Info</title>
+        <meta charset="utf-8" />
+        <style>
+            .corpo {
+                /*background-image: url("https://i.postimg.cc/6QcHbCkw/conceito-de-plano-de-fundo-do-estudio-fundo-escuro-do-quarto-do-estudio-roxo-do-gradiente-para-o-pro.jpg");*/
+                background-size: 100%;
+                background-color: #24242c;
+                size: 100%;
+            }
+            .footer {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: transparent;
+                border: solid 1px;
+                border-color: white;
+                color: white;
+                border-radius: 100px;
+                margin: 0;
+                position: relative; ;
+            }
+            .buttons {
+                display: flex;
+            }
+            .myButton{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative; left: 560px;
+                position: relative; top: -113px;
+                width: 10em;
+                height: 3rem;
+                background-color: #ffffff0c;
+                border-radius: 100px;
+                color: #ffffff;
+                text-transform: uppercase;
+                text-decoration: none;
+                font-family: sans-serif;
+                font-size: 13.3px;
+                box-shadow: 0px 5px 20px 0px #ffffff6f;
+                margin: 7px;
+            }
+            .myButton:hover{
+                background-color: #2c2c3c;
+                color: #fff;
+                box-shadow: 0px 5px 20px 5px #ffffff54;
+                transition: 300ms ease-in-out;
+            }
+            .teste {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative; left: 570px;
+                position: relative; top: -113px;
+                width: 8rem;
+                height: 3rem;
+                background-color: #ffffff0c;
+                border-radius: 200px;
+                color: #ffffff;
+                text-transform: uppercase;
+                text-decoration: none;
+                font-family: sans-serif;
+                font-size: 13.3px;
+                box-shadow: 0px 5px 20px 0px #ffffff6f;
+                margin: 7px;
+                
+            }
+            .teste:hover {
+                background-color: #2c2c3c;
+                color: #fff;
+                box-shadow: 0px 5px 20px 5px #ffffff54;
+                transition: 300ms ease-in-out;
+            }
+            .image{
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+            }
+            .imagem {
+                display: flex;
+                width: 300px;
+            }
+            .login {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative; left: 800px;
+                position: relative; top: -113px;
+                width: 6rem;
+                height: 2rem;
+                background-color: #ffffff0c;
+                border-radius: 200px;
+                color: #ffffff;
+                text-transform: uppercase;
+                text-decoration: none;
+                font-family: sans-serif;
+                font-size: 13.3px;
+                box-shadow: 0px 5px 20px 0px #ffffff6f;
+                margin: 7px;
+            }
+            .login:hover {
+                background-color: #2c2c3c;
+                color: #fff;
+                box-shadow: 0px 5px 20px 5px #ffffff54;
+                transition: 300ms ease-in-out;
+            }
+            .register {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative; left: 800px;
+                position: relative; top: -113px;
+                width: 9rem;
+                height: 2rem;
+                background-color: #ffffff0c;
+                border-radius: 200px;
+                color: #ffffff;
+                text-transform: uppercase;
+                text-decoration: none;
+                font-family: sans-serif;
+                font-size: 13.3px;
+                box-shadow: 0px 5px 20px 5px #ffffff6f;
+                margin: 7px;
+            }
+            .register:hover {
+                background-color: #2c2c3c;
+                color: #fff;
+                box-shadow:  0px 5px 20px 5px #ffffff54;
+                transition: 300ms ease-in-out;
+            }
+            .slider {
+
+                width: 70%;
+                height: 70%;
+                background: #242424;
+                overflow: hidden;
+                position: relative; top:-50px;
+                position: relative; left: 220px;
+                border-radius: 20px;
+
+            }
+
+            .slider img {
+
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                position: relative;
+                margin: auto;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                animation: fade 1s;
+
+            }
+
+            .slider .seta {
+
+                z-index: 10;
+                position: absolute;
+                margin: auto;
+                top: 0;
+                bottom: 0;
+                left: auto;
+                right: auto;
+                width: auto;
+                height: 1.5rem;
+                font-size: 2.5em;
+                color: cornsilk;
+                opacity: 0.5;
+                transition: opacity 1s;
+
+            }
+
+            .slider .seta:hover {
+
+                cursor: pointer;
+                opacity: 1;
+
+            }
+
+            .slider .arrow-left {
+
+                left: 2%;
+
+            }
+
+            .slider .arrow-right {
+
+                right: 2%;
+
+            }
+
+            .slider .paginacao {
+
+                position: absolute;
+                margin: auto;
+                top: auto;
+                bottom: 2%;
+                left: 0;
+                right: 0;
+                width: 7rem;
+                height: auto;
+                z-index: 5;
+
+            }
+
+            .slider .paginacao .botao {
+
+                width: auto;
+                height: auto;
+                display: inline-flex;
+                align-content: center;
+                justify-content: center;
+                color: #fff;
+
+            }
+
+            @keyframes fade {
+            from {
+                opacity: 0.1;
+            }
+            to {
+                    opacity: 1;
+                }
+            }
+        </style>
+    </head>
+ 
+    <body class="corpo">
+        <header class="titulo">
+            <img class="imagem" src="C:\Users\tiago\Desktop\WorksInfo\images\logoWKS.png">
+        </header>
+    
+        <div class="buttons">
+            <a href="#" class="myButton">Profissões</a>
+            <a href="https://www.educamaisbrasil.com.br/teste/vocacional" class="teste">Teste</a>
+            <a href="login.html" class="login">Login</a>
+            <a href="#" class="register">Registre-se ➜</a>
+        </div>
+
+        <section class="slider">
+
+            <div class="seta arrow-left"><i class="fas fa-chevron-circle-left"></i></div>
+      
+              <a href="https://www.wallpaperflare.com/"><img src="uploads/slide-1.png" alt="slide-1.jpg"></a>
+              <a href="https://quecurso.com.br/blog/direito/"><img src="uploads/slide-2.jpg" alt="slide-2.jpg"></a>
+              <a href="https://www.guiadacarreira.com.br/blog/carreira-medicina"><img src="uploads/slide-3.jpg" alt="slide-3.jpg"></a>
+      
+            <div class="seta arrow-right"><i class="fas fa-chevron-circle-right"></i></div>
+      
+            <div class="paginacao">
+          
+              <div class="botao"> <i class="far fa-circle"></i> </div>
+              <div class="botao"> <i class="far fa-circle"></i> </div>
+              <div class="botao"> <i class="far fa-circle"></i> </div>
+              <div class="botao"> <i class="far fa-circle"></i> </div>
+          
+            </div>
+            <script>
+
+                const imgs = document.querySelectorAll(".slider img");
+                const dots = document.querySelectorAll(".botao i");
+                const leftArrow = document.querySelector(".arrow-left");
+                const rightArrow = document.querySelector(".arrow-right");
+                
+                let currentIndex = 0;
+                let time = 4000; //Tempo padrão para apresentação de slides automática
+                
+                const defClass = (startPos, index) => {
+                  for (let i = startPos; i < imgs.length; i++) {
+                    imgs[i].style.display = "none";
+                    dots[i].classList.remove("fa-dot-circle");
+                    dots[i].classList.add("fa-circle");
+                  }
+                  imgs[index].style.display = "block";
+                  dots[index].classList.add("fa-dot-circle");
+                };
+                
+                defClass(1, 0);
+                
+                leftArrow.addEventListener("click", function(){
+                  currentIndex <= 0 ? currentIndex = imgs.length-1 : currentIndex--;
+                  defClass(0, currentIndex);
+                });
+                
+                rightArrow.addEventListener("click", function(){
+                  currentIndex >= imgs.length-1 ? currentIndex = 0 : currentIndex++;
+                  defClass(0, currentIndex);
+                });
+                
+                const startAutoSlide = () => {
+                  setInterval(() => {
+                    currentIndex >= imgs.length-1 ? currentIndex = 0 : currentIndex++;
+                    defClass(0, currentIndex);
+                  }, time);
+                };
+                
+                startAutoSlide(); //Inicia o slideshow
+                
+                </script>
+          
+          </section><!--slider-->
+        <footer class="footer">
+            <p><strong>&copy;Works Info. Todos os direitos reservados</strong></p>
+        </footer>
+    </body>
+</html>
